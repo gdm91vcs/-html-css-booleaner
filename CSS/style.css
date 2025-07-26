@@ -1,9 +1,9 @@
+
     .header {
         height: 100px;
         background-color: rgb(50, 143, 219);
         background-image: url(./img/pattern.png);
-        background-size: 35%;
-
+        background-size: 39%;
     }
 
     .header-logo {
@@ -12,9 +12,21 @@
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 70px;
     }
 
+    .author {
+        color: rgb(43, 174, 226);
+    }
+
+    h2 {
+        color: grey;
+    }
+    
+    h3 {
+        color: grey;
+    }
+    
     .lorem1 {
         font-size: 20px;
     }
@@ -25,9 +37,28 @@
 
     .thead {
         background-color: rgb(0, 132, 255);
+        color: white;
+        text-align: left;
     }
 
-    .tr {
+    .lorem3 {
+        font-size: 20px;
+    }
+
+    .h32 {
+        color: rgb(105, 100, 100);
+        font-size: 20px;
+    }
+
+    .mark {
+        background-color: gold;
+    }
+
+    .mark2 {
+        background-color: gold;
+    }
+
+    .tr1 {
         background-color: rgb(125, 238, 253);
     }
 
@@ -35,19 +66,28 @@
         background-color: rgb(125, 238, 253);
     }
 
+    .space-table {
+        width: 60%;
+    }
+
     .lorem3 {
         font-size: 20px;
     }
 
-    .h3-2 {
-        color: rgb(105, 100, 100);
+    .monitor {
+        width: 200px;
+        height: 200px;
+        background-image: url(./img/monitor.jpg);
+        color: rgb(255, 255, 255);
+        text-align: center;
         font-size: 20px;
     }
 
-    .evidenziato {
-        background-color: gold;
-    }
-
-    .evidenziato2 {
-        background-color: gold;
+    .graph {
+        width: 200px;
+        height: 200px;
+        background-image: url(./img/graph.jpg);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 20px;
     }
